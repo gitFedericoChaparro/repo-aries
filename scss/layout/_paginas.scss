@@ -1,0 +1,77 @@
+
+/* ESTILOS DE PAGINA CONTACTO */
+
+/*estilos de h1 y h4*/
+
+.contactanos{
+    position: relative;
+    text-align: center;
+    top: 60px;
+    left: 340px;
+
+}
+.comenza{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    color: green
+}
+
+/* estilos del main*/
+.containermt-5{
+    margin-top: 150px;
+}
+
+
+/* ESTILOS DE SERVICIOS  */
+
+.contenedor-servicios-cm{
+    display: flex;
+    margin-top: 100px;
+}
+.img-cm{
+    position: relative;
+    height: 400px;
+}
+.listado-cm{
+    display: grid;
+}
+.listado-cm p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-bottom: -50px;
+}
+
+.contenedor-servicios-pm{
+    display: flex;
+    margin-top: 100px;
+}
+.img-pm{
+    position: relative;
+    width:600px;
+    height: 400px;
+}
+.listado-pm{
+    display: grid;
+}
+.listado-pm p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.contenedor-servicios-dg{
+    display: flex;
+    margin-top: 100px;
+}
+.img-dg{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.listado-dg{
+    display: grid;
+}
+.listado-dg p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}

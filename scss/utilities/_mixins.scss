@@ -1,0 +1,5 @@
+
+@mixin testilos($justifyValor,$alignValor){
+    justify-content: $justifyValor;
+    text-align: $alignValor;
+}

@@ -1,0 +1,147 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/extends" as *;
+
+.tituloServicios{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  top: 40px;
+}
+.servicios-main{
+  display: flex;
+  @include testilos(center,center);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;   
+}
+.servicios-main ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.servicios-main li{
+  margin: 10px;
+}
+.servicios-main a:hover{
+  color: green;   
+}
+.imagen-CM{
+  @extend %imgServicios;
+}
+.textoCommunity{
+  @extend %textosServicios;
+}
+.imagenDiseño{
+  @extend %imgServicios;
+}
+.textoDiseño{
+  @extend %textosServicios;
+}
+.imagenDesarrollo{
+  @extend %imgServicios;
+}
+.textoDesarrollo{
+  @extend %textosServicios;
+}
+
+
+.tituloTrabajos{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  top: 60px;
+}
+
+.trabajos-main{
+  display: flex;
+  justify-content: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.trabajos-main ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.trabajos-main li{
+  margin: 10px;
+  flex: 1 1 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.trabajos-main p{
+  margin-top: 10px;
+  flex-grow: 1;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.trabajos-main a:hover{
+  color: green;
+}
+.textoPosteos, .textoIdentidad, .textoReels{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+.imagenPosteos{
+  margin-top: 10px;
+}
+.imagenIdentidad{
+  margin-top: -24px;
+}
+.videoReels{
+  margin-top: -40px
+}
+
+
+.titulo-reseñas{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  top: 120px;
+}
+.reseñas-main{
+  display: flex;
+  justify-content: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  position: relative;
+  top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reseñas-main li{
+flex: 1 1 30%; 
+margin: 10px; 
+padding: 20px;
+border: 2px solid #ccc; 
+border-radius: 8px; 
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+background-color: #cac2c2; 
+text-align: center; 
+transition: transform 0.3s ease; 
+}
