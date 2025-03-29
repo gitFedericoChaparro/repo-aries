@@ -1,0 +1,689 @@
+@charset "UTF-8";
+.imagen-CM, .imagenDiseño, .imagenDesarrollo {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.textoCommunity, .textoDiseño, .textoDesarrollo {
+  list-style-type: none;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  color: black;
+}
+
+html {
+  margin: 10px;
+  padding: 10px;
+}
+
+body {
+  background-color: #ccc6c0;
+  position: relative;
+}
+
+.logoPrincipal {
+  height: 100px;
+  width: 400px;
+}
+
+.videoHeader {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contenedorSuperior {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedorSuperior nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contenedorSuperior a:hover {
+  color: green;
+}
+
+.creer {
+  height: 80px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 80px;
+  margin-bottom: -30px;
+}
+
+h1 {
+  width: 45%;
+  word-wrap: break-word;
+  hyphens: auto;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  color: black;
+  hyphens: none;
+  word-break: break-word;
+}
+
+section {
+  margin-bottom: -50px;
+  margin-top: -20px;
+}
+
+h2 {
+  width: 45%;
+  word-wrap: break-word;
+  hyphens: auto;
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  hyphens: none;
+  word-break: break-word;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.botonPotencia {
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: -20px;
+  font-size: 15px;
+  background-color: rgb(84, 109, 84);
+  cursor: pointer;
+}
+
+/* Estilo al pasar el cursor sobre el botón */
+.botonPotencia:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); /* Sombra para el efecto de iluminación */
+  transform: scale(1.1); /* Agrandar el botón */
+}
+
+/* Estilo al hacer clic en el botón */
+.botonPotencia:active {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); /* Sombra al hacer clic */
+  transform: translateY(4px); /* Mover el botón hacia abajo */
+}
+
+.tituloServicios {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  top: 40px;
+}
+
+.servicios-main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.servicios-main ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.servicios-main li {
+  margin: 10px;
+}
+
+.servicios-main a:hover {
+  color: green;
+}
+
+.tituloTrabajos {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  top: 60px;
+}
+
+.trabajos-main {
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trabajos-main ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.trabajos-main li {
+  margin: 10px;
+  flex: 1 1 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.trabajos-main p {
+  margin-top: 10px;
+  flex-grow: 1;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.trabajos-main a:hover {
+  color: green;
+}
+
+.textoPosteos, .textoIdentidad, .textoReels {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+.imagenPosteos {
+  margin-top: 10px;
+}
+
+.imagenIdentidad {
+  margin-top: -24px;
+}
+
+.videoReels {
+  margin-top: -40px;
+}
+
+.titulo-reseñas {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  top: 120px;
+}
+
+.reseñas-main {
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  position: relative;
+  top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reseñas-main li {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #cac2c2;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.contenedor-footer {
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.contenedor-footer::after {
+  content: "";
+  display: block;
+  height: 500px;
+}
+
+.creer-footer {
+  display: flex;
+  position: relative;
+  text-align: center;
+  top: 155px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.lista-redes {
+  position: relative;
+  top: 200px;
+  display: flex;
+  margin-left: -350px;
+  text-align: center;
+  gap: 0px;
+  margin-top: 50px;
+}
+
+.logoIG {
+  height: 60px;
+}
+
+.logoTIKTOK {
+  height: 60px;
+}
+
+.logoFB {
+  height: 60PX;
+}
+
+.contacto {
+  display: flex;
+  position: relative;
+  text-align: center;
+  top: 125px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: -20px;
+}
+
+.lista-contacto {
+  position: relative;
+  top: 120px;
+  display: grid;
+  text-align: left;
+  gap: 20px;
+  margin-left: -20px;
+  justify-content: space-between;
+}
+
+.logoMAIL {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.logoymail {
+  display: flex;
+}
+
+.logoWPP {
+  position: relative;
+  height: 60px;
+  margin-top: -20px;
+  margin-left: -15px;
+  margin-right: -5px;
+}
+
+.logoytelefono {
+  display: flex;
+}
+
+.nav-footer {
+  padding: 0px;
+  text-align: center;
+  display: grid;
+  position: relative;
+  top: 165px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: -7px;
+}
+
+.nav-footer h3 {
+  text-align: center;
+  margin-bottom: -80px;
+}
+
+.nav-footer ul {
+  display: grid;
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.nav-footer li {
+  display: block;
+  padding: 0 10px;
+  margin-top: -20px;
+  text-align: left;
+}
+
+.nav-footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-footer a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+/* ESTILOS DE PAGINA CONTACTO */
+/*estilos de h1 y h4*/
+.contactanos {
+  position: relative;
+  text-align: center;
+  top: 60px;
+  left: 340px;
+}
+
+.comenza {
+  position: relative;
+  text-align: center;
+  top: 20px;
+  color: green;
+}
+
+/* estilos del main*/
+.containermt-5 {
+  margin-top: 150px;
+}
+
+/* ESTILOS DE SERVICIOS  */
+.contenedor-servicios-cm {
+  display: flex;
+  margin-top: 100px;
+}
+
+.img-cm {
+  position: relative;
+  height: 400px;
+}
+
+.listado-cm {
+  display: grid;
+}
+
+.listado-cm p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-bottom: -50px;
+}
+
+.contenedor-servicios-pm {
+  display: flex;
+  margin-top: 100px;
+}
+
+.img-pm {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+.listado-pm {
+  display: grid;
+}
+
+.listado-pm p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.contenedor-servicios-dg {
+  display: flex;
+  margin-top: 100px;
+}
+
+.img-dg {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.listado-dg {
+  display: grid;
+}
+
+.listado-dg p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+/*MEDIA QUERIES RESPONSIVE!!!!*/
+@media (max-width: 500px) {
+  html {
+    margin: 0px;
+    padding: 0px;
+  }
+  .contenedorSuperior {
+    display: grid;
+    justify-content: space-between;
+  }
+  .logoPrincipal {
+    height: 100px;
+    width: 360px;
+    display: grid;
+  }
+  .contenedorSuperior nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  ul {
+    list-style-type: none;
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .contenedorSuperior a:hover {
+    color: rgb(6, 127, 6);
+  }
+  .videoHeader {
+    display: grid;
+    height: 400px;
+    width: 360px;
+    position: relative;
+    top: -10px;
+    left: 5px;
+    margin-top: -70px;
+    margin-bottom: -100px;
+  }
+  .creer {
+    height: 80px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+  }
+  h1 {
+    width: 100%;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: black;
+    hyphens: none;
+    word-break: break-word;
+  }
+  h2 {
+    width: 100%;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    hyphens: none;
+    word-break: break-word;
+    margin-top: -10px;
+    margin-bottom: 50px;
+  }
+  .reseñas-main {
+    display: grid;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .reseñas-main li {
+    display: grid;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #cac2c2;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .reseñas-main ul {
+    display: grid;
+    margin-bottom: -10px;
+  }
+  .contenedor-footer {
+    display: grid;
+  }
+  .creer-footer {
+    display: grid;
+    position: relative;
+    text-align: center;
+    top: 150px;
+    margin-left: 40px;
+    padding: 0px;
+    font-size: 20px;
+  }
+  .lista-redes {
+    display: flex;
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    gap: 0px;
+    margin-top: 50px;
+  }
+  .contacto {
+    display: grid;
+    position: relative;
+    text-align: center;
+    top: 80px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .lista-contacto {
+    position: relative;
+    top: 80px;
+    display: grid;
+    text-align: center;
+    gap: 20px;
+    margin-left: 70px;
+  }
+  .nav-footer h3 {
+    display: grid;
+    text-align: center;
+    margin-top: -60px;
+    margin-left: 40px;
+  }
+  .nav-footer ul {
+    display: grid;
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 0px;
+  }
+  .nav-footer li {
+    display: grid;
+    padding: 0 10px;
+    margin-top: -20px;
+    text-align: center;
+  }
+  .footer-copyright {
+    text-align: center;
+    margin-left: 40px;
+  }
+  .contenedor-footer::after {
+    content: "";
+    display: block;
+    height: 150px;
+  }
+  .contenedor-servicios-cm {
+    display: grid;
+    margin-top: 50px;
+  }
+  .img-cm {
+    height: 250px;
+  }
+  .listado-cm p {
+    font-size: 17px;
+    margin-top: -15px;
+  }
+  .contenedor-servicios-pm {
+    display: grid;
+  }
+  .img-pm {
+    height: 200px;
+    width: 400px;
+  }
+  .listado-pm p {
+    font-size: 17px;
+  }
+  .contenedor-servicios-dg {
+    display: grid;
+  }
+  .img-dg {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
