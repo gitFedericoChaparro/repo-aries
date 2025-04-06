@@ -481,7 +481,7 @@ h2 {
   position: relative;
   text-align: center;
   top: 60px;
-  left: 340px;
+  margin-left: 380px;
 }
 
 .comenza {
@@ -489,11 +489,13 @@ h2 {
   text-align: center;
   top: 20px;
   color: green;
+  margin-left: 40px;
 }
 
 /* estilos del main*/
 .containermt-5 {
   margin-top: 150px;
+  margin-left: 35px;
 }
 
 .btn-btn-primary-w-100 {
@@ -914,20 +916,22 @@ h2 {
 }
 
 .contactanos {
-  left: 0px;
+  margin-left: 2px;
 }
 
 .comenza {
   max-width: 350px;
+  margin-left: 2px;
 }
 
 .containermt-5 {
   max-width: 350px;
+  margin-left: 2px;
 }
 
 .contact-form {
   max-width: 350px;
-  margin-left: 15px;
+  margin-left: 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */
