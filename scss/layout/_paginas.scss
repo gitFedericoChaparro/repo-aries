@@ -22,6 +22,10 @@
     margin-top: 150px;
 }
 
+.btn-btn-primary-w-100{
+    background-color: green;
+    color: beige;
+}
 
 /* ESTILOS DE SERVICIOS  */
 
@@ -37,9 +41,11 @@
     display: grid;
 }
 .listado-cm p{
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     margin-bottom: -50px;
+    width: 50%;
 }
 
 .contenedor-servicios-pm{
@@ -72,6 +78,45 @@
     display: grid;
 }
 .listado-dg p{
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
+    margin-bottom: -50px;
+    width: 50%;
+}
+
+//estilos PORTFOLIO//
+
+.texto-posteos-portfolio{
+    position: relative;
+    width: 40%;
+    left: 350px;
+    top: -150px;
+}
+.texto-identidad-portfolio{
+    position: relative;
+    width: 40%;
+    left: 370px;
+    top: -150px;  
+}
+.texto-reels-portfolio{
+    position: relative;
+    width: 40%;
+    left: 340px;
+    top: -150px;
+}
+
+.tituloTrabajos-portfolio{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top: 50px;
+    margin-bottom: 150px;
+}
+
+//estilos RESEÑAS//
+.reseñas-main li{
+    font-size: 20px;
 }
