@@ -15,6 +15,7 @@
         width: 330px;
         display: grid;
         margin-bottom: 30px;
+        margin-left: 5px;
     }
     .contenedorSuperior nav ul li a{
         color: black;
@@ -22,12 +23,12 @@
         font-weight: 500px;
         font-size: 14px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        width: 350px;
+        width: 330px;
     } 
     ul{
         list-style-type: none;
         margin: 0;
-        margin-left: 4px;
+        margin-left: 10px;
         padding: 0;
         display: flex;
         align-items: center;
@@ -95,6 +96,15 @@
     .imagenDesarrollo{
         margin-left: 0px;
     }
+    .textoCommunity{
+        margin-left: -6px;
+    }
+    .textoDiseño{
+       margin-left: -6px; 
+    }
+    .textoDesarrollo{
+       margin-left: -6px;
+    }
 
     //responsive trabajos//
     .item-carrusel{
@@ -102,8 +112,16 @@
     }
     .carousel-control-next-icon{
         width: 350px;
+        margin-bottom: 150px;
+        height: 30px;
     }
-    .carousel-control-next{   
+    .carousel-control-prev-icon{
+       width: 350px;
+       margin-bottom: 150px;
+       height: 30px; 
+    }
+    .carousel-item.active{
+        height: 610px;
     }
     .imagenPosteos{
         position: relative;
@@ -118,8 +136,9 @@
     .posteo-description{
         left: 30px;
         top: 30px;
-        width: 50%;
+        width: 70%;
         word-wrap: break-word;
+        word-break:keep-all;
     }
     .imagenIdentidad{
         margin-left: 40px;
